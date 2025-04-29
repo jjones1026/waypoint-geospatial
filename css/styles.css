@@ -159,8 +159,8 @@ body {
 }
 
 .gallery-grid img {
-  width: 50%; /* Half-size */
-  height: auto;
+  width: 20; /* Half-size */
+  height: 30;
   margin: 0 auto;
   display: block;
   border-radius: 10px;
