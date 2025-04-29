@@ -1,65 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Waypoint Geospatial</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <img src="assets/logo.png" alt="Waypoint Geospatial Logo" class="logo">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <img
+          src="assets/logo.png"
+          alt="Waypoint Geospatial Logo"
+          class="logo"
+        />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="page-banner portfolio-banner">
-        <div class="container">
-            <h1>Our Portfolio</h1>
-            <p>Turning Data into Actionable Insights.</p>
-        </div>
+      <div class="container">
+        <h1>Our Portfolio</h1>
+        <p>Turning Data into Actionable Insights.</p>
+      </div>
     </section>
 
     <section class="portfolio-section">
-        <div class="container">
-            <div class="portfolio-grid">
-                
-                <div class="portfolio-item">
-                    <img src="assets/maps/sample-map1.jpg" alt="Project 1">
-                    <h3>Parcel Analysis - Residential Development</h3>
-                    <p>Detailed flood risk, soil suitability, and zoning overlays for future residential buildout planning.</p>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="assets/maps/sample-map2.jpg" alt="Project 2">
-                    <h3>Drone Survey - Commercial Infrastructure</h3>
-                    <p>High-resolution drone mapping of commercial lots, optimized for site selection and utility planning.</p>
-                </div>
-
-                <div class="portfolio-item">
-                    <img src="assets/maps/sample-map3.jpg" alt="Project 3">
-                    <h3>Topographic Mapping - Agricultural Expansion</h3>
-                    <p>Generated elevation models and contour maps for precise water flow management and field design.</p>
-                </div>
-
-            </div>
+      <div class="container">
+        <!-- Project 1 -->
+        <div class="portfolio-item">
+          <h3>Basic Zoning Report – Port Orange, FL</h3>
+          <p>
+            <strong>Client:</strong> John Smith<br /><strong>Date:</strong>
+            April 2025
+          </p>
+          <div class="gallery-grid">
+            <img
+              src="assets/maps/zoning-1.jpg"
+              alt="Page 1 - Parcel Overview"
+            />
+            <img src="assets/maps/zoning-2.jpg" alt="Page 2 - Zoning Map" />
+            <img
+              src="assets/maps/zoning-3.jpg"
+              alt="Page 3 - Summary Insights"
+            />
+            <img src="assets/maps/zoning-4.jpg" alt="Page 4 - Contact Page" />
+          </div>
+          <p>
+            <strong>Summary:</strong> R2 zoning with favorable setbacks and no
+            known development restrictions. Parcel is well-positioned for
+            residential construction.
+          </p>
+          <a
+            href="assets/reports/zoning-report.pdf"
+            class="btn-primary"
+            target="_blank"
+            >View Full Report</a
+          >
         </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item">
+          <h3>FEMA Flood Risk – St. Augustine, FL</h3>
+          <p>
+            <strong>Client:</strong> A&D Land Development<br /><strong
+              >Date:</strong
+            >
+            April 2025
+          </p>
+          <div class="gallery-grid">
+            <img src="assets/maps/flood-1.jpg" alt="Page 1 - Overview" />
+            <img src="assets/maps/flood-2.jpg" alt="Page 2 - Flood Zone Map" />
+            <img src="assets/maps/flood-3.jpg" alt="Page 3 - Analysis" />
+            <img src="assets/maps/flood-4.jpg" alt="Page 4 - Contact" />
+          </div>
+          <p>
+            <strong>Summary:</strong> 38% of parcel lies in AE flood zone;
+            mitigation recommended. Elevation model confirms buildable section
+            on NW side.
+          </p>
+          <a
+            href="assets/reports/flood-risk-report.pdf"
+            class="btn-primary"
+            target="_blank"
+            >View Full Report</a
+          >
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item">
+          <h3>Soil Suitability – Hastings, FL</h3>
+          <p>
+            <strong>Client:</strong> Sunrise Ag Ventures<br /><strong
+              >Date:</strong
+            >
+            April 2025
+          </p>
+          <div class="gallery-grid">
+            <img src="assets/maps/soil-1.jpg" alt="Page 1 - Parcel Overview" />
+            <img src="assets/maps/soil-2.jpg" alt="Page 2 - Soil Map" />
+            <img
+              src="assets/maps/soil-3.jpg"
+              alt="Page 3 - Suitability Insights"
+            />
+            <img src="assets/maps/soil-4.jpg" alt="Page 4 - Contact Info" />
+          </div>
+          <p>
+            <strong>Summary:</strong> 65% of the land consists of loamy sand
+            with excellent drainage, supporting both agricultural and light
+            structural use.
+          </p>
+          <a
+            href="assets/reports/soil-assessment.pdf"
+            class="btn-primary"
+            target="_blank"
+            >View Full Report</a
+          >
+        </div>
+      </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Waypoint Geospatial | Powered by Altivion Group</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 Waypoint Geospatial | Powered by Altivion Group</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
