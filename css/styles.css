@@ -17,15 +17,6 @@ body {
   padding: 20px 0;
 }
 
-.logo {
-    width: 120px; /* Adjust as needed */
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #00b3a4; /* Optional border for flair */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Optional shadow */
-}
-
 .nav-links {
   list-style: none;
   display: flex;
