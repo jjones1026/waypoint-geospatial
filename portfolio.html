@@ -34,42 +34,39 @@
   <section class="portfolio-section">
     <div class="container">
 
-      <!-- Zoning Report with Slideshow -->
+      <!-- Zoning Report -->
       <div class="portfolio-item">
         <h3>Basic Zoning Report – Template</h3>
         <p><strong>Client:</strong> John Smith<br><strong>Date:</strong> April 2025</p>
 
-        <div class="slideshow-container zoning-slides">
-          <img class="slide zoning-slide" src="assets/maps/zoning-2.jpg" alt="Zoning Page 2">
-         
-           <!-- <a class="prev" onclick="plusSlides(-1, 0)">❮</a> -->
-          <!-- <a class="next" onclick="plusSlides(1, 0)">❯</a> -->
+        <div class="gallery-grid">
+          <img src="assets/maps/zoning-1.jpg" alt="Zoning Report Page 2">
         </div>
 
         <p><strong>Summary:</strong> R2 zoning with favorable setbacks and no known development restrictions. Parcel is well-positioned for residential construction.</p>
         <a href="assets/reports/zoning-report.pdf" class="btn-primary" target="_blank">View Full Report</a>
       </div>
 
-      <!-- Flood Report - static for now -->
+      <!-- Flood Report -->
       <div class="portfolio-item">
         <h3>FEMA Flood Risk – Template</h3>
         <p><strong>Client:</strong> A&D Land Development<br><strong>Date:</strong> April 2025</p>
 
         <div class="gallery-grid">
-          <img src="assets/maps/flood-1.jpg" alt="Page 2 - Flood Zone Map">
+          <img src="assets/maps/flood-1.jpg" alt="Flood Risk Report Page 1">
         </div>
 
         <p><strong>Summary:</strong> 38% of parcel lies in AE flood zone; mitigation recommended. Elevation model confirms buildable section on NW side.</p>
         <a href="assets/reports/flood-report.pdf" class="btn-primary" target="_blank">View Full Report</a>
       </div>
 
-      <!-- Soil Suitability Report - static for now -->
+      <!-- Soil Suitability Report -->
       <div class="portfolio-item">
         <h3>Soil Suitability – Template</h3>
         <p><strong>Client:</strong> Sunrise Ag Ventures<br><strong>Date:</strong> April 2025</p>
 
         <div class="gallery-grid">
-          <img src="assets/maps/soil-1.jpg" alt="Page 2 - Soil Map">
+          <img src="assets/maps/soil-1.jpg" alt="Soil Suitability Report Page 1">
         </div>
 
         <p><strong>Summary:</strong> 65% of the land consists of loamy sand with excellent drainage, supporting both agricultural and light structural use.</p>
@@ -84,32 +81,6 @@
       <p>&copy; 2025 Waypoint Geospatial | Powered by Altivion Group</p>
     </div>
   </footer>
-
-  <!-- Slideshow Script -->
- <!-- <script>
-    let slideIndices = [1];
-    const slideClasses = ["zoning-slide"];
-
-    function showSlides(n, slideshowIndex) {
-      const slides = document.getElementsByClassName(slideClasses[slideshowIndex]);
-      if (n > slides.length) { slideIndices[slideshowIndex] = 1 }
-      if (n < 1) { slideIndices[slideshowIndex] = slides.length }
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slides[slideIndices[slideshowIndex] - 1].style.display = "block";
-    }
-
-    function plusSlides(n, slideshowIndex) {
-      showSlides(slideIndices[slideshowIndex] += n, slideshowIndex);
-    }
-
-    window.onload = function() {
-      for (let i = 0; i < slideClasses.length; i++) {
-        showSlides(slideIndices[i], i);
-      }
-    };
-  </script> -->
 
 </body>
 </html>
